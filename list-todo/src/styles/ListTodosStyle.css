@@ -1,0 +1,404 @@
+.background {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.865);
+    width: 100%;
+    color: white;
+}
+
+
+.container {
+    background-color: rgba(0, 0, 0, 0.087);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    position: fixed;
+}
+
+.light-night-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 40px 0 40px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.light, .night {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.80s ease-in-out ;
+}
+.light:hover {
+    color: gold;
+    box-shadow: 10px 9px 10px gold;
+}
+
+.night-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transform: rotate(200deg);
+    transition: all 0.80s ease-in-out ;
+    color: #e9c068; 
+}
+
+.light {
+    color: rgba(255, 217, 0, 0.581);
+}
+
+.night:hover{
+    color: #e9c068;
+}
+
+/* .night:hover {
+    color: #e9c0684f; 
+} */
+
+.lightSun {
+
+    color: rgba(255, 217, 0, 0.705);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+.scrol-btn {
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffff;
+    bottom: 3.6%;
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.792);
+    cursor: pointer;
+}
+
+.bloc-container {
+    padding-bottom: 30px;
+}
+
+.container-todos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 46%;
+    height: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f93131e2;
+    color: #ffff;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 1px 1px 9px black;
+}
+
+.container-todos:hover {
+    box-shadow: 1px 1px 9px #f93131e2;
+}
+
+.btns {
+
+    border: none;
+    background-color: transparent;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+
+}
+
+.no-task {
+    
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.alertEmptyTask {
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+
+.inp-update {
+
+    display: flex;
+    align-items: center;
+    width: 155%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: rgba(255, 0, 0, 0.758);
+    outline: none;
+}
+
+.container {
+    margin-bottom: 50px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.inp-tasks-todo, .btn-submit {
+    border: none;
+    border-radius: 10px;
+}
+.btn-submit {
+    cursor: pointer;
+}
+.inp-tasks-todo {
+    
+    height: 46px;
+    background-color: rgba(255, 0, 0, 0.644);
+    padding: 10px;
+    width: 47%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+    outline: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+
+.inp-tasks-todo:hover {
+
+    box-shadow: 1px 1px 3px black;
+
+}
+
+.btn-submit {
+    height: 66px;
+    width: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(255, 0, 0, 0.644);
+    position: absolute;
+    left: 70%;
+}
+.names-bloc {
+    line-height: 0px;
+}
+
+.transparent-Line {
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid transparent;
+    margin: auto;
+    width: 80%;
+}
+
+.gold-line {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+    border-bottom: solid 4px #ffd700;
+}
+
+.btn-valid {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+    color: gold;
+}
+
+.btn-valid-white {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 25px;
+    color: #ffff;
+}
+
+.isEditing:hover {
+    color: rgba(0, 0, 0, 0.466);
+}
+
+.btn-valid-white:hover {
+    color: rgba(255, 217, 0, 0.637);
+}
+
+.remove:hover {
+    color: rgba(0, 0, 0, 0.715);
+}
+
+.removeAll {
+    border: none;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.39);
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.removeAll:hover {
+
+    box-shadow: 1px 1px 9px red;
+}
+
+.actions-btns {
+
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-family: 'Dancing Script';
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.underline-title {
+    display: flex;
+    /* position: sticky; */
+    /* top: 0; */
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 54%;
+    border-bottom: 8px solid rgba(0, 0, 255, 0.959);
+}
+
+.Completeds-Tasks-title {
+    margin-left: 25px;
+}
+
+.title-list-todo{
+
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 8px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.star-completed {
+    position: relative;
+    display: block;
+    border: none;
+    font-size: 80px;
+    font-weight: bold;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@keyframes animStar {
+    
+    0% {transform: rotate(0deg)}
+    50% {transform: rotate(100deg)}
+    100% {transform: rotate(200deg)}
+    50% {transform: rotate(100deg)}
+    0% {transform: rotate(0deg)}
+
+
+
+}
+
+.title-confirmed {
+
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: 'Dancing Script';
+}
+
+.bloc-confirmeds {
+    border: 1px solid black;
+    background-color: #ffff;
+    border-radius: 5px;
+    width: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    padding: 20px;
+    box-shadow: 1px 1px 9px rgba(255, 0, 0, 0.534);
+    top:  35%;
+    right: 22.5%;
+    transform: translate(-50% -50%);
+
+}
+
+.btn-confirmed {
+    margin: 50px 50px 20px;
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.yes{
+    background-color: rgba(255, 0, 0, 0.614);
+}
+
+.yes:hover {
+    box-shadow: 1px 1px 9px red;
+}
+
+.no{
+    background-color: rgba(0, 128, 0, 0.616);
+}
+
+.no:hover {
+    box-shadow: 1px 1px 9px green;
+}
